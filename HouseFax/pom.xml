@@ -6,8 +6,8 @@
     <version>2.5.0</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
-  <groupId>HouseFax</groupId>
-  <artifactId>HouseFax</artifactId>
+  <groupId>HouseFaxBack</groupId>
+  <artifactId>HouseFaxBack</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
    <name>HouseFaxBack</name>
