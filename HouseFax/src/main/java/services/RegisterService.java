@@ -17,7 +17,7 @@ public class RegisterService {
 	String port = "3306";
 	String databaseName = "sys";
 	String userDataBaseName = "root";
-	String pass = "DaBezt_123";
+	String pass = "";
 
     private String insertInspection = "insert into inspector_report_table (inspectorId, inspectionReport, dateOfInspection, country, city, state, street, "
     		+ "zip, firstName, LastName, email) VALUES (?,?,?,?,?,?,?,?,?,?,?)";

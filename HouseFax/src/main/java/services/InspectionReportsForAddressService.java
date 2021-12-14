@@ -23,7 +23,7 @@ public class InspectionReportsForAddressService {
 	String port = "3306";
 	String databaseName = "sys";
 	String userDataBaseName = "root";
-	String pass = "DaBezt_123";
+	String pass = "";
 	
 	public InspectionsForAddressResponse inspectionReportsForAddressService (InspectionsForAddressRequest req) {
 		InspectionsForAddressResponse resp = new InspectionsForAddressResponse();
