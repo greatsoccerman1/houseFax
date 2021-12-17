@@ -18,12 +18,12 @@ import modals.InspectionsForAddressResponse;
 
 @Service
 public class InspectionReportsForAddressService {
-	private String getInspectionsQuery = "select * from inspector_report_table where street = ? AND state = ? AND city = ?, AND zip = ?";
+	private String getInspectionsQuery = "select * from inspector_report_table where street = ? AND state = ? AND city = ? AND zip = ?";
 	String ip = "localhost";
 	String port = "3306";
 	String databaseName = "sys";
 	String userDataBaseName = "root";
-	String pass = "";
+	String pass = "DaBezt_123";
 	
 	public InspectionsForAddressResponse inspectionReportsForAddressService (InspectionsForAddressRequest req) {
 		InspectionsForAddressResponse resp = new InspectionsForAddressResponse();

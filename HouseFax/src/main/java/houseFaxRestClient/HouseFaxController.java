@@ -26,12 +26,12 @@ public class HouseFaxController {
 	@Autowired
 	InspectionReportsForAddressService inspectionReportsForAddressService;
 	
-	@PostMapping("houseFax/InsertInspection")
+	@PostMapping("/houseFax/InsertInspection")
 	public LogInspectionResponse registerService(@RequestBody LogInspectionRequest req) throws ClassNotFoundException{
 		return registerService.insertInspection(req);
 	}
 	
-	@PostMapping("houseFax/GetInspections")
+	@PostMapping("/houseFax/GetInspections")
 	public InspectionsForAddressResponse inspectionReportsForAddressService(@RequestBody InspectionsForAddressRequest req) throws ClassNotFoundException{
 		return inspectionReportsForAddressService.inspectionReportsForAddressService(req);
 	}
